@@ -7,8 +7,21 @@ export const Projects = () => {
     return(
         <div>
             <Navbar/>
-            <p>hello projects</p>
+            <div id="projects-container">
+                <h3>Rock Paper Scissors</h3>
             
+                <a href="https://mhartley19.github.io/rock-paper-scissors/">
+                <img class='projectimage RPSimage' 
+                    src={require('../images/RPS.jpeg')} 
+                    alt='Rock Paper Scissors Game'/>
+                
+                
+                </a>
+
+
+            
+            
+            </div>
 
 
         </div>

@@ -4,6 +4,7 @@ import '../App.js'
 
 export const Navbar = () => {
     return(
+        
     <div id="navbar">
         
       
