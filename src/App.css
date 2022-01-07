@@ -23,3 +23,20 @@
   margin-right: auto;
   margin-left: 10px;
 }
+
+/* image styling for project page */
+
+#projects-container{
+  margin:5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  
+}
+
+.projectimage{
+  height: 225px;
+  width: 280px;
+
+}
