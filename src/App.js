@@ -6,6 +6,7 @@ import {BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import { render } from 'react-dom'
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 function App() {
