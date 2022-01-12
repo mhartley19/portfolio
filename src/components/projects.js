@@ -5,6 +5,8 @@ import {Link} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 export const Projects = () => {
+
+    
     return(
         <>
             
@@ -21,7 +23,10 @@ export const Projects = () => {
 
                 </a>
                 <br></br>
-                <CustomCard title="Black Jack" sub='Tech Stack: React, JavaScript' des='description working'/>
+                <CustomCard title="Black Jack" 
+                            sub='Tech Stack: React, JavaScript' 
+                            des='description working'
+                            gitlink='https://mhartley19.github.io/rock-paper-scissors/'/>
                 
                 <br></br>
             
@@ -31,7 +36,18 @@ export const Projects = () => {
                         alt='Rock Paper Scissors Game'/>
                 </a>
                 <br></br>
-                <CustomCard title="Rock Paper Scissors" sub='Tech Stack: Javascript' des='description working'/>
+                <CustomCard title="Rock Paper Scissors" sub='Tech Stack: Javascript, CSS, HTML' des='
+                    Rock Paper Scissors was deisnged using JavaScript, CSS and HTML, please click image for link to site'
+                    gitlink='https://github.com/mhartley19/rock-paper-scissors'/>
+
+                <br></br>
+                        <img class='projectimage twitter-clone-image' 
+                        src={require('../images/tc.png')} 
+                        alt='Twitter Clone'/>
+                <br></br>
+
+                <CustomCard title='Twitter Clone' sub="Tech Stack: Python" des="decription" gitlink="https://github.com/kenzie-se-q4/twitterclone-mhartley19"/>
+              
         
             </div>
 

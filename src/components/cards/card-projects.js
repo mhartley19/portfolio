@@ -13,9 +13,13 @@ export const CustomCard = (props) => {
         </header>
             <p class='project-card-subtitle'>{props.sub}</p>
         <body>
-          <p class='project-card-body'>{props.des}
-        </p>
+            <p class='project-card-body'>{props.des}
+            </p>
         </body>
+        <footer class='project-card-gitlink'>
+          <a href={props.gitlink}>GitHub</a>
+
+        </footer>
       </div>
     )
 }
