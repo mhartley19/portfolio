@@ -6,25 +6,47 @@
   color: red;
   position: fixed;
   width: 100%;
+  
  
 }
 
-#navlinkcontainer{
+#nav-container{
   display: flex;
   justify-content: flex-end;
   align-items: center;
   height: 50px;
+  
   background-color: paleturquoise;
   /* position: fixed; */
   
 }
 
+.nav-link-container{
+      display: flex;
+      height: 50px;
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+      
+}
+
 .navlink{
+  display: flex;
   text-decoration: none;
   color: black;
   margin: 5px;
-  font-size: 12px
- 
+  font-size: 12px;
+  height:50px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.navlink:hover {
+  color: black;
+  font-size: 14px;
+  background-color: rgb(134, 223, 223);
+  box-shadow: 5px 5px black;
 }
 
 .navtitle{
