@@ -55,6 +55,11 @@
   width:250px;
 }
 
+.twitter-clone-image{
+
+height:300px;
+width: 300px;
+}
 /* card styling */
 
 .project-card{
@@ -71,15 +76,20 @@
 }
 
 .project-card-title{
-  padding:2px;
+  padding:4px;
 }
 
 .project-card-subtitle{
   color: rgb(87, 79, 79);
   font-size: 18px;
+  padding:3px;
 }
 
 .project-card-body{
-  padding: 5px;
+  padding: 3px;
   background-color: white;
+}
+
+.project-card-gitlink{
+  padding:3px;
 }
