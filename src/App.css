@@ -10,6 +10,11 @@
  
 }
 
+#project-container-one{
+  margin-top: 60px;
+  
+}
+
 #nav-container{
   display: flex;
   justify-content: flex-end;
@@ -56,14 +61,37 @@
 
 /* image styling for project page */
 
-#projects-container{
+#project-page{
+  display: flex;
+  flex-direction: column;
+  
+}
+#all-projects-container{
   
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: lightyellow;
+  width: auto;
   
   
+  
+  
+}
+
+.project-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 30px;
+  height: auto;
+  justify-content: space-around;
+  
+}
+
+.project-image{
+  margin-bottom: 10px;
 }
 
 .RPSimage{
@@ -88,7 +116,7 @@ width: 300px;
   border: solid;
   border-width: thin;
   border-color: lightgrey;
-  width: auto;
+  width: 75%;
   background-color: white
 }
 
