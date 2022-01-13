@@ -33,6 +33,7 @@ export const Projects = () => {
                                     gitlink='https://mhartley19.github.io/rock-paper-scissors/'/>
                 </div>  
 
+                <hr></hr>
                 {/* Project Card Two */}  
                 
                 <div id='project-container-two'class='project-container'>
