@@ -1,94 +1,120 @@
 
-#project-container-one{
+
+/* PP = Project Page */
+/* PC = Project Card */
+/* IM = Image */
+
+/*  Begin CSS for Projects.JS  */
+
+
+#PP{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+
+.PP-ap-container{
+    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: darkslategrey;
+  width: auto;
+  
+}
+
+
+.PP-container-one{
     margin-top: 60px;
     
   }
+
+/* .PP-container-two{
+
+} */
+
+/* .PP-container-three{
+
+} */
   
+.PP-containers{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 30px;
+  height: auto;
+  justify-content: space-around;
   
-  /* image styling for project page */
+}  
+
+ 
+
   
-  #project-page{
-    display: flex;
-    flex-direction: column;
-    
-  }
-  #all-projects-container{
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: darkslategrey;
-    width: auto;
-    
-    
-    
-    
-  }
+
   
-  .project-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    margin-bottom: 30px;
-    height: auto;
-    justify-content: space-around;
-    
-  }
-  
-  .project-image{
+  .PP-IM{
     margin-bottom: 10px;
     border-radius: 8px;
   }
   
-  .RPSimage{
+  .IM-rps{
     height: 240px;
     width: 300px;
   
   }
   
-  .bjimage{
+  .IM-blackjack{
     height:500px;
     width:250px;
   }
   
-  .twitter-clone-image{
-  
+  .IM-twitter-clone{
   height:300px;
   width: 300px;
   }
-  /* card styling */
+
+  /* Project Card CSS */
+
   
-  .project-card{
+  #PC{
+    display: flex;
+    flex-direction: column;
     border: solid;
     border-width: thin;
     border-color: lightgrey;
     width: 75%;
     background-color: white;
     border-radius: 8px;
+    
   }
-  
-  .project-card-header{
+
+  .PC-title-container{
     background-color: lightgrey;
   
   }
   
-  .project-card-title{
+ .PC-title{
     padding:4px;
   }
   
-  .project-card-subtitle{
+  .PC-subtitle{
     color: rgb(87, 79, 79);
     font-size: 18px;
     padding:3px;
   }
   
-  .project-card-body{
+  .PC-body{
     padding: 3px;
     background-color: white;
   }
   
-  .project-card-gitlink{
+  .PC-gitlink{
     padding:3px;
   }
+  
+  
+
   

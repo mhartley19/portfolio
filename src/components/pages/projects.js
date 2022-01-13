@@ -1,6 +1,6 @@
 import React from 'react'
 import {Navbar} from '../navbar'
-import {CustomCard} from '../cards/card-projects'
+import {ProjectCard} from '../cards/project-card'
 import {Link} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -12,21 +12,21 @@ export const Projects = () => {
     return(
         <>
             
-        <div id='project-page'> 
+        <div id='PP'> 
             <Navbar/>
-            <div id="all-projects-container">
+            <div class="PP-ap-container">
         
 
                 {/* Project Card One */}
 
-                <div id='project-container-one' class='project-container'>
+                <div class='PP-container-one PP-containers'>
                         <a href="https://mhartley19.github.io/blackjack-react/">
-                            <img class='project-image bjimage' 
+                            <img class='PP-IM IM-blackjack' 
                             src={require('../../images/bj.png')} 
                             alt='Black Jack game'/>
 
                         </a>
-                        <CustomCard title="Black Jack" 
+                        <ProjectCard title="Black Jack" 
                                     sub='Tech Stack: React, JavaScript' 
                                     des='Black Jack game created with React, includes double down, 
                                         correct Ace value based on game situation'
@@ -36,12 +36,12 @@ export const Projects = () => {
                 
                 {/* Project Card Two */}  
                 
-                <div id='project-container-two'class='project-container'>
-                            <img class='project-image twitter-clone-image' 
+                <div class='PP-container-two PP-containers'>
+                            <img class='PP-IM IM-twitter-clone' 
                             src={require('../../images/tc.png')} 
                             alt='Twitter Clone'/>
 
-                        <CustomCard title='Twitter Clone' 
+                        <ProjectCard title='Twitter Clone' 
                                     sub="Tech Stack: Python" 
                                     des='This is a clone of Twitter using Python, it utilizes Models and Views.
                                     It featues user creation, user login, "tweets" direct messaging and notifications
@@ -51,16 +51,16 @@ export const Projects = () => {
                 </div> 
 
                 {/* Project Card Three */}    
-                <div id='project-container-three' class='project-container'>
+                <div class='PP-container-three PP-containers'>
 
                 
                     <a href="https://mhartley19.github.io/rock-paper-scissors/">
-                            <img class='project-image RPSimage' 
+                            <img class='PP-IM IM-rps' 
                             src={require('../../images/RPS.jpeg')} 
                             alt='Rock Paper Scissors Game'/>
                     </a>
                     
-                    <CustomCard title="Rock Paper Scissors" 
+                    <ProjectCard title="Rock Paper Scissors" 
                                 sub='Tech Stack: Javascript, CSS, HTML' 
                                 des='Rock Paper Scissors was deisnged using JavaScript, 
                                 CSS and HTML, please click image for link to site'
@@ -69,7 +69,7 @@ export const Projects = () => {
                     
                 
                 </div>
-        </div>
+            </div>
 
         </div>   
         </>

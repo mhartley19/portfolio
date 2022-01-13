@@ -1,4 +1,8 @@
-#navbar{
+
+
+/* NB = Navbar */
+
+#NB{
     color: red;
     position: fixed;
     width: 100%;
@@ -6,18 +10,17 @@
    
   }
 
-  #nav-container{
+  .NB-container{
     display: flex;
     justify-content: flex-end;
     align-items: center;
     height: 50px;
-    
     background-color: paleturquoise;
     /* position: fixed; */
     
   }
   
-  .nav-link-container{
+  .NB-link-container{
         display: flex;
         height: 50px;
         align-items: center;
@@ -26,7 +29,7 @@
         
   }
   
-  .navlink{
+  .NB-link{
     display: flex;
     text-decoration: none;
     color: black;
@@ -38,14 +41,14 @@
     align-content: center;
   }
   
-  .navlink:hover {
+  .NB-link:hover {
     color: black;
     background-color: rgb(134, 223, 223);
     box-shadow: 5px 5px black;
   }
   
-  .navtitle{
+  .NB-title{
     margin-right: auto;
     margin-left: 10px;
-    font-family: 'Kalam', cursive;
-    font-size: 20px;}
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 23px;}
