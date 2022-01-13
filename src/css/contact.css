@@ -1,8 +1,43 @@
 /* CC = CardContact */
 
+#CP{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    
+}
+
+
 #CC{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: sandybrown;
+    
+
+    
+}
+
+.CP-CC-container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
 
 }
+
+.CP-container{
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-content: center;
+    
+    width: 100%;
+    background-color: seagreen;
+}
+
+
 
 .CC-header{
 
@@ -23,3 +58,4 @@
 .CC-footer{
     
 }
+

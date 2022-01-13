@@ -9,6 +9,7 @@ import './App.css';
 import './css/fonts.css';
 import './css/navbar.css';
 import './css/projects.css';
+import './css/contact.css';
 
 
 

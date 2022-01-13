@@ -4,12 +4,21 @@ import {CardContact} from '../cards/contact-card'
 import {Link} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
+
 export const Contact = () => {
     return(
         <div>
-            <Navbar/>
+            <div id='CP'>
+                <Navbar/>
 
-            <CardContact/>
+                <div class='CP-container'>
+                    <div class='CP-CC-container'>
+                        <CardContact/>
+                    
+                    </div>
+                </div>
+
+            </div>
             
 
 
