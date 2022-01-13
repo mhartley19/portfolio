@@ -5,15 +5,15 @@ import '../App.js'
 export const Navbar = () => {
     return(
         
-    <div id="navbar">
+    <div id="NB">
         
       
-        <div id='nav-container'>
-            <div class='navtitle'>Mike Hartley's Portfolio</div>
-                <div class='nav-link-container'>
-                    <Link class='navlink' to='/'>Home</Link>
-                    <Link class='navlink' to='/projects'>Projects</Link>
-                    <Link class='navlink' to='/contact'>Contact</Link>
+        <div class='NB-container'>
+            <div class='NB-title'>Mike Hartley's Portfolio</div>
+                <div class='NB-link-container'>
+                    <Link class='NB-link' to='/'>Home</Link>
+                    <Link class='NB-link' to='/projects'>Projects</Link>
+                    <Link class='NB-link' to='/contact'>Contact</Link>
                 </div>
             </div>
     </div>
