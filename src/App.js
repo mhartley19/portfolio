@@ -1,12 +1,17 @@
 import logo from './logo.svg';
-import {Home} from "./components/homepage"
-import {Projects}from './components/projects'
-import {Contact}from './components/contact'
+import {Home} from "./components/pages/homepage"
+import {Projects}from './components/pages/projects'
+import {Contact}from './components/pages/contact'
 import {BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import { render } from 'react-dom'
 import './App.css';
-import './fonts.css';
+import './css/fonts.css';
+import './css/navbar.css';
+import './css/projects.css';
+
+
+
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 

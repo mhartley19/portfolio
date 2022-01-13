@@ -1,6 +1,6 @@
 import React from 'react'
-import {Navbar} from './navbar'
-import {CustomCard} from './cards/card-projects'
+import {Navbar} from '../navbar'
+import {CustomCard} from '../cards/card-projects'
 import {Link} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -22,7 +22,7 @@ export const Projects = () => {
                 <div id='project-container-one' class='project-container'>
                         <a href="https://mhartley19.github.io/blackjack-react/">
                             <img class='project-image bjimage' 
-                            src={require('../images/bj.png')} 
+                            src={require('../../images/bj.png')} 
                             alt='Black Jack game'/>
 
                         </a>
@@ -38,7 +38,7 @@ export const Projects = () => {
                 
                 <div id='project-container-two'class='project-container'>
                             <img class='project-image twitter-clone-image' 
-                            src={require('../images/tc.png')} 
+                            src={require('../../images/tc.png')} 
                             alt='Twitter Clone'/>
 
                         <CustomCard title='Twitter Clone' 
@@ -56,7 +56,7 @@ export const Projects = () => {
                 
                     <a href="https://mhartley19.github.io/rock-paper-scissors/">
                             <img class='project-image RPSimage' 
-                            src={require('../images/RPS.jpeg')} 
+                            src={require('../../images/RPS.jpeg')} 
                             alt='Rock Paper Scissors Game'/>
                     </a>
                     

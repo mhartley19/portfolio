@@ -1,0 +1,94 @@
+
+#project-container-one{
+    margin-top: 60px;
+    
+  }
+  
+  
+  /* image styling for project page */
+  
+  #project-page{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  #all-projects-container{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: darkslategrey;
+    width: auto;
+    
+    
+    
+    
+  }
+  
+  .project-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+    height: auto;
+    justify-content: space-around;
+    
+  }
+  
+  .project-image{
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+  
+  .RPSimage{
+    height: 240px;
+    width: 300px;
+  
+  }
+  
+  .bjimage{
+    height:500px;
+    width:250px;
+  }
+  
+  .twitter-clone-image{
+  
+  height:300px;
+  width: 300px;
+  }
+  /* card styling */
+  
+  .project-card{
+    border: solid;
+    border-width: thin;
+    border-color: lightgrey;
+    width: 75%;
+    background-color: white;
+    border-radius: 8px;
+  }
+  
+  .project-card-header{
+    background-color: lightgrey;
+  
+  }
+  
+  .project-card-title{
+    padding:4px;
+  }
+  
+  .project-card-subtitle{
+    color: rgb(87, 79, 79);
+    font-size: 18px;
+    padding:3px;
+  }
+  
+  .project-card-body{
+    padding: 3px;
+    background-color: white;
+  }
+  
+  .project-card-gitlink{
+    padding:3px;
+  }
+  
