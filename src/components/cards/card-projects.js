@@ -11,7 +11,7 @@ export const CustomCard = (props) => {
               <h3 class='project-card-title'>{props.title}</h3>
             </div>
         </header>
-            <p class='project-card-subtitle'>{props.sub}</p>
+            <p class='project-card-subtitle'><b>{props.sub}</b></p>
         <body>
             <p class='project-card-body'>{props.des}
             </p>
