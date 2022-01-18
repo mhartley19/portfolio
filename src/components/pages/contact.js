@@ -9,13 +9,12 @@ export const Contact = () => {
     return(
         <div>
             <div id='CP'>
-                <Navbar/>
-
+            <Navbar/>
                 <div class='CP-container'>
-                    <div class='CP-CC-container'>
+                    
                         <CardContact/>
                     
-                    </div>
+                    
                 </div>
 
             </div>
