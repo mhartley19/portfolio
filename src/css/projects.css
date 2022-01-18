@@ -13,6 +13,23 @@
   
 }
 
+#PC-modal-closed{
+  display: none;
+  width: 100%;
+  background-color: khaki;
+
+}
+
+#PC-modal-open{
+  display: flex;
+  width: 100%;
+  background-color: khaki;
+
+}
+
+/* #PC-modal:hover{
+  display: fixed;
+} */
 
 
 .PP-allprojects-container{
@@ -96,17 +113,17 @@
   
   }
   
- .PC-title{
+ .PC-modal-title{
     padding:4px;
   }
   
-  .PC-subtitle{
+  .PC-modal-subtitle{
     color: rgb(87, 79, 79);
     font-size: 18px;
     padding:3px;
   }
   
-  .PC-body{
+  .PC-modal-body{
     padding: 3px;
     background-color: white;
   }
@@ -115,6 +132,9 @@
     padding:3px;
   }
   
+  .PC-modal-footer{
+    
+  }
   
 
   
