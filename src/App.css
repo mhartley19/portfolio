@@ -1,11 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dosis&family=Kalam&family=Libre+Baskerville&family=Montserrat&family=Montserrat+Alternates&family=Oxygen&family=Permanent+Marker&family=Raleway:ital@0;1&family=Roboto+Condensed&family=Shadows+Into+Light&family=Source+Serif+4&family=Space+Mono&display=swap');
 
-:root{
-  background-color: darkgrey;
-}
+
 
 body{
+
+  padding:0;
+  margin:0;
+  background-color: black;
   /* font-family: 'Dosis', sans-serif;
   
   font-family: 'Libre Baskerville', serif;
