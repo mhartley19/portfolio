@@ -13,7 +13,72 @@
   
 }
 
-#PC-modal-closed{
+  
+.PC-container{
+  display: flex;
+  width: 100%;
+  margin-bottom: 30px;
+  height: auto;
+  padding: 3rem;
+} 
+
+
+.PC{
+  display: flex;
+  flex-direction: column;
+  height: 285px;
+  width : 350px;
+  min-width: 250px;
+  box-shadow: -1rem 0 3rem black;
+  transition: .2s;
+
+  /* position: relative; */
+
+}
+
+.PC:hover{
+  transform: translateY(-1rem);
+
+}
+
+.PC:hover .PC-buttons{
+  display: flex;
+  justify-content: space-between;
+  transition: .2s;
+}
+
+
+.PC:hover~.PC{
+  transform: translateX(100px);
+  
+
+}
+
+
+
+
+
+
+.PC:not(:first-child){
+  margin-left: -100px
+}
+
+.PP-IM{
+  height:100%;
+  width:100%;
+  border-radius: 10px;
+}
+
+.PC-buttons{
+  display: none;
+  transition: 1s;
+
+}
+
+
+
+
+/* #PC-modal-closed{
   display: none;
   width: 100%;
   background-color: khaki;
@@ -25,14 +90,14 @@
   width: 100%;
   background-color: khaki;
 
-}
+} */
 
 /* #PC-modal:hover{
   display: fixed;
 } */
 
 
-.PP-allprojects-container{
+/* .PP-allprojects-container{
     
   display: flex;
   flex-direction: column;
@@ -40,11 +105,13 @@
   background-color: darkslategrey;
   width: auto;
   
-}
+} */
 
 
-.PP-container-one{
+.PC-container-one{
     margin-top: 60px;
+    display: flex;
+    flex-direction: row;
     
   }
 
@@ -55,26 +122,16 @@
 /* .PP-container-three{
 
 } */
-  
-.PP-containers{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  margin-bottom: 30px;
-  height: auto;
-  justify-content: space-around;
-  
-}  
+ 
 
  
 
   
 
   
-  .PP-IM{
-    margin-bottom: 10px;
-    border-radius: 8px;
+  /* .PP-IM{
+    height: 250px;
+    width: 250px;
   }
   
   .IM-rps{
@@ -84,19 +141,18 @@
   }
   
   .IM-blackjack{
-    height:500px;
-    width:250px;
+    
   }
   
   .IM-twitter-clone{
   height:300px;
   width: 300px;
-  }
+  } */
 
   /* Project Card CSS */
 
   
-  #PC{
+  /* #PC{
     display: flex;
     flex-direction: column;
     border: solid;
@@ -106,7 +162,17 @@
     background-color: white;
     border-radius: 8px;
     
-  }
+  } */
+
+
+
+
+ 
+
+  /* .PC-IM:hover{
+    width: 110%;
+    height: 110%;
+  } */
 
   .PC-title-container{
     background-color: lightgrey;
