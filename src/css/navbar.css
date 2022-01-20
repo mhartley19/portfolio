@@ -4,7 +4,7 @@
 
 #NB{
     color: red;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     
    
@@ -15,7 +15,8 @@
     justify-content: flex-end;
     align-items: center;
     height: 50px;
-    background-color: paleturquoise;
+    background-color: var(--navBarColor);
+    color: whitesmoke
     /* position: fixed; */
     
   }
@@ -32,7 +33,7 @@
   .NB-link{
     display: flex;
     text-decoration: none;
-    color: black;
+    color: whitesmoke;
     margin: 5px;
     font-size: 14px;
     height:50px;

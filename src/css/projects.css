@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Kalam&family=Libre+Baskerville&family=Montserrat&family=Montserrat+Alternates&family=Oxygen&family=Permanent+Marker&family=Raleway:ital@0;1&family=Roboto+Condensed&family=Shadows+Into+Light&family=Source+Serif+4&family=Space+Mono&display=swap');
 
 
 /* PP = Project Page */
 /* PC = Project Card */
 /* IM = Image */
-
 /*  Begin CSS for Projects.JS  */
+
+
 
 
 #PP{
@@ -13,13 +15,20 @@
   
 }
 
+.PP-header{
+  color: white;
+  text-align: center;
+}
+
   
-.PC-container{
+.PC-container-all{
   display: flex;
   width: 100%;
-  margin-bottom: 30px;
+  padding: 2rem;
   height: auto;
-  padding: 3rem;
+  justify-content: center;
+  
+  
 } 
 
 
@@ -31,6 +40,7 @@
   min-width: 250px;
   box-shadow: -1rem 0 3rem black;
   transition: .2s;
+  /* opacity: .8; */
 
   /* position: relative; */
 
@@ -38,6 +48,7 @@
 
 .PC:hover{
   transform: translateY(-1rem);
+  opacity: 1;
 
 }
 
@@ -54,9 +65,30 @@
 
 }
 
+.sitelink-button{
+  border-radius: 25%;
+  background-color: var(--buttonBlue);
+  color: white;
+  box-shadow: 2px 2px 2px rgb(121, 117, 149);
+  transition: .4s;
+  opacity: .6;
+  /* font-family: 'Dosis', sans-serif; */
+  /* /* font-family: 'Libre Baskerville', serif; */
+  /* font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif; */
+  font-family: 'Oxygen', sans-serif; 
+  /* font-family: 'Permanent Marker', cursive; */
+  /* font-family: 'Raleway', sans-serif;
+  /* font-family: 'Source Serif 4', sans-serif; */
+  /* font-family: 'Space Mono', monospace; */
 
+}
 
+.sitelink-button:hover{
 
+  opacity: 1
+  
+}
 
 
 .PC:not(:first-child){
@@ -70,42 +102,10 @@
 }
 
 .PC-buttons{
-  display: none;
+  /* display: none; */
   transition: 1s;
 
 }
-
-
-
-
-/* #PC-modal-closed{
-  display: none;
-  width: 100%;
-  background-color: khaki;
-
-}
-
-#PC-modal-open{
-  display: flex;
-  width: 100%;
-  background-color: khaki;
-
-} */
-
-/* #PC-modal:hover{
-  display: fixed;
-} */
-
-
-/* .PP-allprojects-container{
-    
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: darkslategrey;
-  width: auto;
-  
-} */
 
 
 .PC-container-one{
@@ -115,75 +115,17 @@
     
   }
 
-/* .PP-container-two{
 
-} */
-
-/* .PP-container-three{
-
-} */
- 
-
- 
-
-  
-
-  
-  /* .PP-IM{
-    height: 250px;
-    width: 250px;
-  }
-  
-  .IM-rps{
-    height: 240px;
-    width: 300px;
-  
-  }
-  
-  .IM-blackjack{
-    
-  }
-  
-  .IM-twitter-clone{
-  height:300px;
-  width: 300px;
-  } */
-
-  /* Project Card CSS */
-
-  
-  /* #PC{
-    display: flex;
-    flex-direction: column;
-    border: solid;
-    border-width: thin;
-    border-color: lightgrey;
-    width: 75%;
-    background-color: white;
-    border-radius: 8px;
-    
-  } */
-
-
-
-
- 
-
-  /* .PC-IM:hover{
-    width: 110%;
-    height: 110%;
-  } */
-
-  .PC-title-container{
+.PC-title-container{
     background-color: lightgrey;
   
   }
   
- .PC-modal-title{
+.PC-modal-title{
     padding:4px;
   }
   
-  .PC-modal-subtitle{
+.PC-modal-subtitle{
     color: rgb(87, 79, 79);
     font-size: 18px;
     padding:3px;
