@@ -20,19 +20,20 @@ export const Projects = () => {
             
         <div id='PP'> 
             <Navbar/>
-            <div class="PP-allprojects-container">
                 
                 {/* Project Card One */}
-
-                <div class='PC-container-one PC-container'>
+                <h1 class="PP-header">Projects</h1>
+                <div class='PC-container-all'>
+                    
                     <ProjectCard 
                         imageAlt='Black Jack game'
                         imageSrc={blackJackImage}
                         imageClass = "PP-IM IM-blackjack"
+                        PCclass= "PC PC-one"
                         linkButtonHref='https://mhartley19.github.io/blackjack-react/'
                         linkButtonID = "Sitelink-BlackJack"
                         modalButtonID= "Modal-BlackJack"
-                        buttonClass = "sitelink"
+                        buttonClass = "sitelink-button"
                         title="Black Jack" 
                         sub='Tech Stack: React, JavaScript' 
                         des='Black Jack game created with React, includes double down, 
@@ -43,8 +44,9 @@ export const Projects = () => {
                         imageAlt='Twitter Clone Site'
                         imageSrc={twitterImage}
                         imageClass = "PP-IM IM-Twitter"
+                        PCclass= "PC PC-two"
                         modalButtonID= "Modal-BlackJack"
-                        buttonClass = "sitelink"
+                        buttonClass = "sitelink-button"
                         title="Black Jack" 
                         sub='Tech Stack: React, JavaScript' 
                         des='Black Jack game created with React, includes double down, 
@@ -54,10 +56,11 @@ export const Projects = () => {
                         imageAlt='Rock Paper Scissors game'
                         imageSrc={rpsImage}
                         imageClass = "PP-IM IM-Rock-Paper-Scissors"
+                        PCclass= "PC PC-three"
                         linkButtonHref="https://mhartley19.github.io/rock-paper-scissors/"
                         linkButtonID = "Sitelink-BlackJack"
                         modalButtonID= "Modal-BlackJack"
-                        buttonClass = "sitelink"
+                        buttonClass = "sitelink-button"
                         title="Black Jack" 
                         sub='Tech Stack: React, JavaScript' 
                         des='Black Jack game created with React, includes double down, 
@@ -74,7 +77,7 @@ export const Projects = () => {
 
 
                 </div> 
-            </div>
+            
 
         </div>   
         </>

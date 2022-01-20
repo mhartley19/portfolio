@@ -5,7 +5,6 @@ import {imageSRC} from '../../images/index'
 import {useState} from 'react'
 
 
-
 export const ProjectCard = (props) => {
 
   const [modalButtonText, setModalButtonText] = useState("Open")
@@ -14,10 +13,11 @@ export const ProjectCard = (props) => {
 
     return(
       // <div id='PC'>
-        <div class='PC'>
+        <div class={props.PCclass}>
             <img class={props.imageClass}
                         src={props.imageSrc}
                         alt={props.imageAlt}/>
+              
           <div class="PC-buttons">
             <a href={props.linkButtonHref}>
               <button id={props.linkButtonID}
@@ -25,11 +25,11 @@ export const ProjectCard = (props) => {
                       Link
               </button>
             </a>
-              <button id={props.modalButtonID}
+              {/* <button id={props.modalButtonID}
                       class={props.buttonClass}
                   >
                       Modal
-              </button>
+              </button> */}
           </div>
         </div>
 
