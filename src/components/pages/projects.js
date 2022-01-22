@@ -22,7 +22,7 @@ export const Projects = () => {
             <Navbar/>
                 
                 {/* Project Card One */}
-                <h1 class="PP-header">Projects</h1>
+                <h1 class="PP-header">deployed Projects</h1>
                 <div class='PC-container-all'>
                     
                     <ProjectCard 

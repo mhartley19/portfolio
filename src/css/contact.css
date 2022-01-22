@@ -3,24 +3,45 @@
 
 #CP{
     display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
+    border: 3px dotted red;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#CC-container{
+    display: flex;
+    justify-content: center;
+    border: 3px solid white;
+    min-width: 50%;
+    max-width:50%
+   
     
 }
 
 
 #CC{
-    display:flex;
-    flex-direction: column;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    height: 100%;
+    flex-direction: column;
     width: 100%;
-    background-color: sandybrown;
+    background-color: sandybrown;  
+    border: .8em solid var(--navBarColor);
+    
+    
+    
+    
+    
     
 
     
 }
 
+.luna{
+    width:200px;
+    height: 150px
+}
 .CP-CC-container{
     display: flex;
     flex-direction: column;
@@ -29,20 +50,20 @@
 }
 
 .CP-container{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    width: 50%;
-    background-color: seagreen;
+   
+    
 }
 
 
 
 .CC-header{
-
+    display: flex;
+    align-items: center;
+    border: 3px dotted blue;
 }
 
 .CC-title-container{
+    border: 3px dotted green;
 
 }
 
@@ -51,10 +72,31 @@
 }
 
 .CC-body{
+    border:3px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    width: 100%;
+    padding:1em;
 
 }
 
 .CC-footer{
+    display: flex;
+    border: 3px dotted green;
+    align-items: center;
+    align-content: center;
     
+    
+}
+
+.logo{
+    width: 2em;
+    height: 2em;
+}
+
+.contactLink{
+    text-decoration: none;
 }
 
