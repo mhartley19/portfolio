@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Helmet } from 'react-helmet'
 
 
 ReactDOM.render(
@@ -10,6 +11,10 @@ ReactDOM.render(
   <React.StrictMode>
     
     <App />
+    <Helmet>
+    <title>Mike Hartley's Portfolio</title>
+    </Helmet>
+    
    
   </React.StrictMode>,
   
