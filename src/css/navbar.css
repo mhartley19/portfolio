@@ -40,16 +40,20 @@
     align-items: center;
     justify-content: center;
     align-content: center;
+    font-family: 'Oxygen', sans-serif; 
+    color: var(--headlineBlue);
+    transition: .3s;
   }
   
   .NB-link:hover {
-    color: black;
-    background-color: rgb(134, 223, 223);
-    box-shadow: 5px 5px black;
+    color: white;
+    
+
   }
   
   .NB-title{
     margin-right: auto;
     margin-left: 10px;
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 23px;}
+    font-family: 'Oxygen', sans-serif; 
+    font-size: 23px;
+    color: var(--headlineBlue);}
