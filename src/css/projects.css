@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis&family=Kalam&family=Libre+Baskerville&family=Montserrat&family=Montserrat+Alternates&family=Oxygen&family=Permanent+Marker&family=Raleway:ital@0;1&family=Roboto+Condensed&family=Shadows+Into+Light&family=Source+Serif+4&family=Space+Mono&display=swap');
-
+/* @import blackJackImage from '../../images/bj.png' */
 
 /* PP = Project Page */
 /* PC = Project Card */
@@ -27,6 +27,7 @@
   padding: 2rem;
   height: auto;
   justify-content: center;
+  flex-wrap: wrap;
   
   
 } 
@@ -40,6 +41,7 @@
   min-width: 250px;
   box-shadow: -1rem 0 3rem black;
   transition: .2s;
+  /* flex-wrap: wrap; */
   /* opacity: .8; */
 
   /* position: relative; */
@@ -52,7 +54,7 @@
 
 }
 
-.PC:hover .PC-buttons{
+.PC:hover .sitelink-button{
   display: flex;
   justify-content: space-between;
   transition: .2s;
@@ -65,7 +67,36 @@
 
 }
 
+.PC-info{
+  display: none;
+  color: white;
+  background-color: black;
+  transition: .2s;
+  padding: .8rem;
+  font-family: 'Oxygen', sans-serif; 
+}
+
+.PC-info-header{
+  color:var(--headlineBlue);
+}
+
+.PC:hover .PC-info{
+  display: flex;
+  flex-direction: column;
+  border-radius: 0 0 5% 5%;
+  border: 1ex solid var(--navBarColor);
+}
+
+/* .PC-one:hover{
+  background-image: url('../images/bj.png');
+  padding: 1em;
+  background-repeat: no-repeat;
+  background-size: 100% 285px;
+  
+} */
+
 .sitelink-button{
+  display: none;
   border-radius: 25%;
   background-color: var(--buttonBlue);
   color: white;
@@ -86,7 +117,8 @@
 
 .sitelink-button:hover{
 
-  opacity: 1
+  opacity: 1;
+  display: flex
   
 }
 
@@ -98,12 +130,18 @@
 .PP-IM{
   height:100%;
   width:100%;
-  border-radius: 10px;
+  transition: .2s;
+}
+
+.PP-IM:hover{
+   border-radius: 5% 5% 0 0 ;
 }
 
 .PC-buttons{
   /* display: none; */
   transition: 1s;
+  display: flex;
+  justify-content: space-around;
 
 }
 

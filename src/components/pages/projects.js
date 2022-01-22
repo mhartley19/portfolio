@@ -35,7 +35,8 @@ export const Projects = () => {
                         modalButtonID= "Modal-BlackJack"
                         buttonClass = "sitelink-button"
                         title="Black Jack" 
-                        sub='Tech Stack: React, JavaScript' 
+                        infoHeader="Blackjack"
+                        stack="React, CSS"
                         des='Black Jack game created with React, includes double down, 
                             correct Ace value based on game situation'
                         gitLink='https://mhartley19.github.io/rock-paper-scissors/'/>
@@ -47,8 +48,9 @@ export const Projects = () => {
                         PCclass= "PC PC-two"
                         modalButtonID= "Modal-BlackJack"
                         buttonClass = "sitelink-button"
-                        title="Black Jack" 
-                        sub='Tech Stack: React, JavaScript' 
+                        title="Black Jack"
+                        infoHeader="Twitter Clone"
+                        stack="React, CSS" 
                         des='Black Jack game created with React, includes double down, 
                             correct Ace value based on game situation'
                         gitLink='https://mhartley19.github.io/rock-paper-scissors/'/>
@@ -62,7 +64,8 @@ export const Projects = () => {
                         modalButtonID= "Modal-BlackJack"
                         buttonClass = "sitelink-button"
                         title="Black Jack" 
-                        sub='Tech Stack: React, JavaScript' 
+                        infoHeader="Rock Paper Scissors "
+                        stack="JavaScript, HTML, CSS" 
                         des='Black Jack game created with React, includes double down, 
                             correct Ace value based on game situation'
                         gitLink='https://mhartley19.github.io/rock-paper-scissors/'/>

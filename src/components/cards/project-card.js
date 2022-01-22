@@ -17,20 +17,27 @@ export const ProjectCard = (props) => {
             <img class={props.imageClass}
                         src={props.imageSrc}
                         alt={props.imageAlt}/>
-              
-          <div class="PC-buttons">
-            <a href={props.linkButtonHref}>
-              <button id={props.linkButtonID}
-                      class={props.buttonClass}>
-                      Link
-              </button>
-            </a>
-              {/* <button id={props.modalButtonID}
-                      class={props.buttonClass}
-                  >
-                      Modal
-              </button> */}
-          </div>
+          <div class='PC-info'> 
+            <h3 class="PC-info-header">{props.infoHeader}</h3>
+            <h5 class="PC-info-techStack">Tech Stack: {props.stack}</h5>
+              <p>{props.des}</p>
+            <div class="PC-buttons">
+              <a href={props.linkButtonHref}>
+                <button id={props.linkButtonID}
+                        class={props.buttonClass}>
+                        Link
+                </button>
+              </a>
+              <a href={props.gitLink}>
+                <button id={props.gitButtonId}
+                        class={props.buttonClass}>
+                        GitHub
+                </button>
+
+
+              </a>
+            </div>
+          </div> 
         </div>
 
 
