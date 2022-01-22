@@ -5,19 +5,16 @@ import {Link} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 
+
 export const Contact = () => {
     return(
         <div>
-            <div id='CP'>
             <Navbar/>
-                <div class='CP-container'>
-                    
-                        <CardContact/>
-                    
-                    
-                </div>
-
+        <div id="CP">
+            <div id='CC-container'>
+                <CardContact/>
             </div>
+        </div>
             
 
 
