@@ -3,7 +3,7 @@
 
 #CP{
     display: flex;
-    border: 3px dotted red;
+    /* border: 3px dotted red; */
     height: 100vh;
     align-items: center;
     justify-content: center;
@@ -12,10 +12,8 @@
 #CC-container{
     display: flex;
     justify-content: center;
-    border: 3px solid white;
+    border: 3px solid var(--headlineBlue);
     min-width: 50%;
-    max-width:50%
-   
     
 }
 
@@ -26,7 +24,8 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
-    background-color: sandybrown;  
+    background-color: black;  
+    color: white;
     border: .8em solid var(--navBarColor);
     
     
@@ -38,10 +37,7 @@
     
 }
 
-.luna{
-    width:200px;
-    height: 150px
-}
+
 .CP-CC-container{
     display: flex;
     flex-direction: column;
@@ -49,30 +45,28 @@
 
 }
 
-/* .CP-container{
-   
-    
-} */
+
 
 
 
 .CC-header{
     display: flex;
     align-items: center;
+    padding:2px;
     border: 3px dotted blue;
+    
 }
 
-.CC-title-container{
-    border: 3px dotted green;
+
+
+.CC-title{
+    font-weight: 700;
+    color: var(--headlineBlue);
 
 }
-
-/* .CC-title{
-
-} */
 
 .CC-body{
-    border:3px solid red;
+    /* border:3px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -84,9 +78,10 @@
 
 .CC-footer{
     display: flex;
-    border: 3px dotted green;
-    align-items: center;
-    align-content: center;
+    /* border: 3px dotted green; */
+    font-weight: 700;
+    color: var(--headlineBlue);
+    padding: 2px;
     
     
 }

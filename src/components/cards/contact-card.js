@@ -15,37 +15,41 @@ export const CardContact = (props) => {
                 <h3 class='CC-title'>Contact</h3>
             </div>
             <div class='CC-body'>
-                <li>
-                    <img class='logo' src={emailLogo}></img>
-                    mike.hartley.80@gmail.com
-                </li>
-                <li>
-                    <img class='logo' src={phoneLogo}></img>
-                    408-480-1715
-                </li>
-                <li>
-                    <img class='logo' src={linkedInLogo}></img>
-                    <a  class="contactLink"
-                        href="https://www.linkedin.com/in/mikehartley1/">
-                        LinkedIn</a>
-                </li>
-                <li>
-                    <img class='logo' src={githubLogo}></img>
-                    <a  class="contactLink"
-                        href="https://github.com/mhartley19">
-                        GitHub</a>
-                </li>
-                <li>
-                    <img class='logo' src={resumeLogo}></img>
-                    <a  class="contactLink"
-                        href="https://docs.google.com/document/d/1M1k88KsLvkHWvoki1BM0USH8YKf7jZA0Bd77hqGXfL8/edit">
-                        Resume</a>
-                </li>
-
+                <ul class='contact-list'>
+                    <li>
+                            <img class='logo' src={emailLogo}></img>
+                            mike.hartley.80@gmail.com
+                    </li>
+                    <li>
+                            <img class='logo' src={phoneLogo}></img>
+                            408-480-1715
+                    </li>
+                    <li>
+                        <a  class="contactLink"
+                            href="https://www.linkedin.com/in/mikehartley1/">
+                            <img class='logo' src={linkedInLogo}></img>
+                            LinkedIn
+                            </a>
+                    </li>
+                    <li>
+                        <a  class="contactLink"
+                            href="https://github.com/mhartley19">
+                            <img class='logo' src={githubLogo}></img>
+                            GitHub
+                            </a>
+                    </li>
+                    <li>
+                        <a  class="contactLink"
+                            href="https://docs.google.com/document/d/1M1k88KsLvkHWvoki1BM0USH8YKf7jZA0Bd77hqGXfL8/edit">
+                            <img class='logo' src={resumeLogo}></img>
+                            Resume
+                            </a>
+                    </li>
+                </ul>
                 
             </div>
             <div class='CC-footer'>
-                <p>footer</p>
+                <div>Thank you for visiting, hope to hear from you soon!</div>
             </div>
 
         </div>

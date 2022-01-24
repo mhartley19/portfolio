@@ -27,12 +27,14 @@
   display: flex;
   width: 100%;
   padding: 2rem;
-  height: auto;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
+  border: 3px solid white;
   
   
 } 
+
 
 
 .PC{
@@ -43,6 +45,7 @@
   min-width: 250px;
   box-shadow: -1rem 0 3rem black;
   transition: .2s;
+  border: 3px dotted red;
   /* flex-wrap: wrap; */
   /* opacity: .8; */
 
@@ -76,6 +79,8 @@
   transition: .2s;
   padding: .8rem;
   font-family: 'Oxygen', sans-serif; 
+  
+  
 }
 
 .PC-info-header{
