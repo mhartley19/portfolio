@@ -1,0 +1,9 @@
+.HP-container{
+    border: 2px solid white;
+    color: white;
+}
+
+.HP-image{
+    height: 285px;
+    width: 350px;
+}

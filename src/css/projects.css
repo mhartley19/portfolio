@@ -27,7 +27,7 @@
   display: flex;
   width: 100%;
   padding: 2rem;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   border: 3px solid white;
@@ -67,7 +67,7 @@
 
 
 .PC:hover~.PC{
-  transform: translateX(100px);
+  /* transform: translateX(100px); */
   
 
 }
@@ -131,7 +131,7 @@
 
 
 .PC:not(:first-child){
-  margin-left: -100px
+  /* margin-left: -100px */
 }
 
 .PP-IM{
