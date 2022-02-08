@@ -1,7 +1,6 @@
 import React from 'react'
 import {Navbar} from '../navbar'
 import {ProjectCard} from '../cards/project-card'
-import {Link} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import blackJackImage from '../../images/bj.png'
 import rpsImage from '../../images/RPS.jpeg'

@@ -66,11 +66,11 @@
 }
 
 
-.PC:hover~.PC{
+/* .PC:hover~.PC{
   /* transform: translateX(100px); */
-  
+   
 
-}
+
 
 .PC-info{
   display: none;
@@ -130,9 +130,9 @@
 }
 
 
-.PC:not(:first-child){
+/* .PC:not(:first-child){
   /* margin-left: -100px */
-}
+
 
 .PP-IM{
   height:100%;
@@ -185,9 +185,7 @@
     padding:3px;
   }
   
-  .PC-modal-footer{
-    
-  }
+
   
 
   
