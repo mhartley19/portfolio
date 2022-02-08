@@ -3,9 +3,10 @@
 /* NB = Navbar */
 
 #NB{
-    color: red;
-    /* position: fixed; */
+    color: var(--red);
+    position: fixed;
     width: 100%;
+    top: 0;
     
    
   }
@@ -15,7 +16,7 @@
     justify-content: flex-end;
     align-items: center;
     height: 50px;
-    background-color: var(--navBarColor);
+    background-color: var(--red);
     color: whitesmoke
     /* position: fixed; */
     

@@ -5,13 +5,19 @@
   --buttonBlue: rgb(23, 58, 163);
   --navBarColor: rgb(83, 92, 92);
   --headlineBlue: rgb(115, 214, 245);
+  --royal: rgb(0, 129, 167);
+  --teal: rgb(0, 175, 185);
+  --lightYellow: rgb(253, 252, 220);
+  --peach: rgb(254, 217, 183);
+  --red: rgb(240,113,103)
+  
 }
 
 body{
 
   padding:0;
   margin:0;
-  background-color: black;
+  background-color: var(--teal);
   font-family: 'Oxygen', sans-serif
   /* font-family: 'Dosis', sans-serif;
   
