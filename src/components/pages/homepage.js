@@ -16,6 +16,7 @@ export const Home = () => {
             imageAlt="Luna"
             imageClass="HP-image"
         />
+        <h1>hello world</h1>
         
     </div>
 
