@@ -17,31 +17,31 @@ export const CardContact = (props) => {
             <div class='CC-body'>
                 <ul class='contact-list'>
                     <li>
-                            <img class='logo' src={emailLogo}></img>
+                            <img class='logo' src={emailLogo} alt="logoimage"></img>
                             mike.hartley.80@gmail.com
                     </li>
                     <li>
-                            <img class='logo' src={phoneLogo}></img>
+                            <img class='logo' src={phoneLogo} alt="logoimage"></img>
                             408-480-1715
                     </li>
                     <li>
                         <a  class="contactLink"
                             href="https://www.linkedin.com/in/mikehartley1/">
-                            <img class='logo' src={linkedInLogo}></img>
+                            <img class='logo' src={linkedInLogo} alt="logoimage"></img>
                             LinkedIn
                             </a>
                     </li>
                     <li>
                         <a  class="contactLink"
                             href="https://github.com/mhartley19">
-                            <img class='logo' src={githubLogo}></img>
+                            <img class='logo' src={githubLogo} alt="logoimage"></img>
                             GitHub
                             </a>
                     </li>
                     <li>
                         <a  class="contactLink"
                             href="https://docs.google.com/document/d/1M1k88KsLvkHWvoki1BM0USH8YKf7jZA0Bd77hqGXfL8/edit">
-                            <img class='logo' src={resumeLogo}></img>
+                            <img class='logo' src={resumeLogo} alt="logoimage"></img>
                             Resume
                             </a>
                     </li>

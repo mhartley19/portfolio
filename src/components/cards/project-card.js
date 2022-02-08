@@ -1,14 +1,9 @@
 import React from 'react'
-import {Card} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import {imageSRC} from '../../images/index'
-import {useState} from 'react'
+
 
 
 export const ProjectCard = (props) => {
-
-  const [modalButtonText, setModalButtonText] = useState("Open")
-  
 
 
     return(
